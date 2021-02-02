@@ -1,0 +1,11 @@
+doctype html
+html(lang="en")
+    head
+        include ../modules/head
+    body
+        div.page
+            include ../modules/header
+            block content
+            include ../modules/footer
+        block scripts
+            script(src='./js/main.min.js')

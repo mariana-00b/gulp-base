@@ -1,2 +1,2 @@
-# gulp-base
-gulp-base
+# gulp-base-project
+Simple gulp project

@@ -1,0 +1,76 @@
+.intro {
+    background-image: url(../images/intro.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    color: $white;
+}
+
+.intro__inner {
+    width: 100%;
+    height: 700px;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro__logo {
+    display: none;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 26.5px;
+}
+
+.intro__title {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 63px;
+
+    margin-bottom: 28.5px;
+}
+
+.intro__subtitle {
+    font-family: $roboto;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 24.5px;
+
+    margin-bottom: 45px;
+}
+
+.intro__btn {
+    font-weight: 700;
+    padding: 13px 19px;
+    background-color: $red;
+}
+
+@media screen and (max-width: 320px) {
+    .intro__inner {
+        height: 540px;
+        padding: 0 10px;
+    }
+
+    .intro__logo {
+        display: block;
+    }
+
+    .intro__title {
+        font-size: 30px;
+        line-height: 37px;
+        margin-bottom: 5.5px;
+    }
+
+    .intro__subtitle {
+        font-size: 18px;
+        margin-bottom: 27px;
+    }
+
+    .intro__btn {
+        padding: 12px 46.5px;
+    }
+}
